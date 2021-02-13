@@ -36,7 +36,7 @@ export class GitRequestService {
       following: number,
       repos_url: string,
       avatar_url: string,
-      url: string
+      apiUrl: string
     }
 
     let promise = new Promise((resolve,reject)=>{
@@ -83,7 +83,7 @@ export class GitRequestService {
     followers: number,
     following: number,
     avatar_url: string,
-    url: string
+    apiUrl: string
     }
 
     let promise = new Promise((_resolve,_reject)=>{
