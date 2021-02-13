@@ -1,6 +1,10 @@
 <body>
    
-    
+    <img style="border-radius: 50px; width: 300px;" src="{{user.avatar_url}}" alt="">
+ <p *ngIf='user' style="padding-top: 20px;">
+          
+            Username: {{user.login}}
+        </p>
     
      <h3> Repositories</h3>
 

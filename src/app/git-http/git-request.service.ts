@@ -21,7 +21,7 @@ export class GitRequestService {
     this.user = new User("","",0 , 0, "", "")
     this.repos = new Repository("", "", "", new Date(), "")
     
-    this.Username = "chegrofelix" 
+    this.Username = "ReginaWangui" 
   }
   
   searchUser(userRequest: any) {

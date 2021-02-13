@@ -13,7 +13,7 @@ export class GitDisplayComponent implements OnInit {
 
   user?: any;
   repository:any;
-  User = environment.apiToken;
+  User = environment.apiUrl;
   UserName?: string;
    
   constructor(public gitService:GitRequestService) {
