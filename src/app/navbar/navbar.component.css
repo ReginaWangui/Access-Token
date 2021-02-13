@@ -1,0 +1,14 @@
+.navbar ul{
+    background-color: teal;
+    line-height: 40px;
+    color: tan;
+    width: 100%;
+    text-align: center;
+    padding-left: 500px;
+    
+}
+.navbar ul li a{
+    color:tan;
+    margin-right: 100px;
+}
+ 
